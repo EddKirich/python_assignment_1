@@ -1,9 +1,4 @@
-#university_name = "Nairobi University"
-#print(university_name)
-#a=10
-#b=3
-#print(a%b)
-x={}
-x[2]=10
-x[1]=[20,30,40]
-print(x[1][2])
+name=input("What is your name? ")
+age=input("What is your age? ")
+location=input("Where are you located? ")
+print(f"Your name is {name}. You are {age} years old and live in {location}.")
